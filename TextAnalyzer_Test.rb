@@ -2,8 +2,8 @@ require_relative 'analyzer2'
 require 'logger'
 
 ## sample implementation
-$LOG = Logger.new("analyzer.log", "monthly")
-$LOG.progname = "jdcrisostomo_analyzer"
+$LOG = Logger.new("jdcrisostomo_textAnalyzer.log", "monthly")
+$LOG.progname = "jdcrisostomo_textAnalyzer"
 
 def create_analyzer_object
   begin 
